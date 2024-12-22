@@ -1,6 +1,10 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
+
+# We used 'TkAgg' backend to open the image in new window
+matplotlib.use('TkAgg')
 
 # Load the images
 blue_image = cv2.imread('C:/mms/blue.jpg')
